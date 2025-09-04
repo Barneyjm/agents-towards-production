@@ -12,7 +12,7 @@ Camino AI is a location intelligence platform designed specifically for AI agent
 - **Spatial Intelligence**: Calculate routes, distances, and spatial relationships
 - **Context-Aware Search**: Understand intent and context (e.g., "romantic dinner" vs "business lunch")
 - **Journey Planning**: Optimize multi-stop trips with constraints
-- **Cost-Effective**: 17x cheaper than Google Places API ($0.001 vs $0.017 per call)
+- **Cost-Effective**: $0.001 per call with a generous free tier
 - **AI-First Design**: Built for agents, not traditional mapping applications
 
 ## 📚 Tutorials in This Series
@@ -27,7 +27,6 @@ Learn the fundamentals of Camino AI and explore its core capabilities:
 - Understanding location context and surroundings
 - Planning complex journeys with multiple waypoints
 - MCP (Model Context Protocol) integration
-- Building a simple location-aware agent class
 
 **Best For**: Developers new to Camino AI who want to understand its capabilities
 
@@ -50,7 +49,8 @@ Build sophisticated location-aware agents using LangChain and Camino AI:
 ### Prerequisites
 
 1. **Get API Keys**:
-   - Sign up for Camino AI at [getcamino.ai](https://getcamino.ai)
+   - Sign up for Camino AI at [app.getcamino.ai](https://app.getcamino.ai?utm_source=agents-towards-p
+       roduction&utm_medium=github&utm_campaign=tutorial)
    - Get an OpenAI API key (or another LLM provider)
 
 2. **Install Dependencies**:
@@ -213,7 +213,7 @@ multi_agent = create_react_agent(
       "args": [
         "-y",
         "@modelcontextprotocol/server-http",
-        "https://api.getcamino.ai/mcp?caminoApiKey=YOUR_KEY"
+        "https://mcp.getcamino.ai/mcp?caminoApiKey=YOUR_KEY"
       ]
     }
   }
@@ -226,7 +226,7 @@ import requests
 
 response = requests.get(
     "https://api.getcamino.ai/query",
-    params={"q": "coffee shops", "lat": 40.7589, "lon": -73.9851},
+    params={"query": "coffee shops", "lat": 40.7589, "lon": -73.9851},
     headers={"X-API-Key": "your-api-key"}
 )
 ```
@@ -272,7 +272,8 @@ class ProductionLocationAgent:
 
 ### Resources
 - 📚 [API Documentation](https://api.getcamino.ai/docs)
-- 🎮 [Interactive Playground](https://app.getcamino.ai/playground)
+- 🎮 [Interactive Playground](https://app.getcamino.ai/playground?utm_source=agents-towards-p
+       roduction&utm_medium=github&utm_campaign=tutorial)
 
 ### Common Issues
 
