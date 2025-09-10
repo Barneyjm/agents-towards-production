@@ -144,22 +144,7 @@ A regular click on "Visit Site" leaves the repo (use Ctrl‑/⌘‑click to keep
     </sub>
   </td>
 
-  <!-- Coral Protocol -->
-  <td width="200" valign="bottom">
-    <a href="tutorials/multi-agent-setup-coral" title="Open Coral Protocol tutorial">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_coral_white.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_coral_black.png"
-             height="44" style="max-width:180px;" alt="Coral Protocol - Open-source collaboration infrastructure for AI agents and production software service systems">
-      </picture>
-    </a><br>
-    <sub><span style="white-space:nowrap;">Multi-Agent Infrastructure</span><br>
-             <a href="https://docs.coralprotocol.org/CoralDoc/Introduction/UsingAgents#devmode?utm_source=github&utm_medium=referral&utm_campaign=nir_github&utm_id=nir_coralprotocol">
-         <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Coral Protocol website">
-       </a>
-    </sub>
-  </td>
+
 </tr>
 </table>
 
@@ -295,23 +280,6 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
 
 ## 📚 Tutorials
 
-### 🏗️ Full-Stack Applications
-
-<table width="100%">
-  <tr style="background-color:#f8f9fa">
-    <th width="30%">Tutorial</th>
-    <th width="50%">Description</th>
-    <th width="20%">View</th>
-  </tr>
-  <tr>
-    <td>Full-Stack Agent Applications with Portia</td>
-    <td>Master Portia AI framework for building predictable, stateful, and authenticated agentic workflows. Includes SteelThread evaluation framework for real-time production monitoring and offline testing, with hands-on UXR data analysis and Notion integration examples.</td>
-    <td align="center">
-      <a href="tutorials/fullstack-agents-with-portia"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-</table>
-
 ### 🔌 Tool Integration
 
 <table width="100%">
@@ -321,24 +289,44 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
-    <td>Web Data Collection for AI Agents (Bright Data)</td>
-    <td>Build agents that collect and process web data at scale using enterprise-grade scraping infrastructure. Learn to integrate proxy networks, handle CAPTCHAs, and extract structured data from complex websites.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-brightdata"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Secure Tool Calling (Arcade)</td>
+    <td>Secure Tool Calling (Arcade) <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
     <td>Enable agents to securely call external tools (Gmail, Slack, Notion) with OAuth2 authentication and human-in-the-loop safety controls. Learn production-ready tool integration with user isolation and approval workflows.</td>
     <td align="center">
       <a href="tutorials/arcade-secure-tool-calling"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
+</table>
+
+### 🏗️ Full-Stack Applications
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
   <tr>
-    <td>Browser Automation for AI Agents (Anchor Browser)</td>
-    <td>Enable agents to interact with web applications through browser automation. Learn to extract data from dashboards, automate form filling, and navigate complex web interfaces using cloud-hosted browsers.</td>
+    <td>Full-Stack Agent Applications with Portia <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Master Portia AI framework for building predictable, stateful, and authenticated agentic workflows. Includes SteelThread evaluation framework for real-time production monitoring and offline testing, with hands-on UXR data analysis and Notion integration examples.</td>
     <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/anchor-browser-agent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+      <a href="tutorials/fullstack-agents-with-portia"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 📊 Data Processing
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Web Data Collection for AI Agents (Bright Data) <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Build agents that collect and process web data at scale using enterprise-grade scraping infrastructure. Learn to integrate proxy networks, handle CAPTCHAs, and extract structured data from complex websites.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-brightdata"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
   <tr>
@@ -346,6 +334,13 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Enable agents to access, search, and extract real-time web data. Build workflows that combine live web information with private knowledge for research, monitoring, and up-to-date recommendations.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-tavily-web-access"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Browser Automation for AI Agents (Anchor Browser)</td>
+    <td>Enable agents to interact with web applications through browser automation. Learn to extract data from dashboards, automate form filling, and navigate complex web interfaces using cloud-hosted browsers.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/anchor-browser-agent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -392,13 +387,7 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="50%">Description</th>
     <th width="20%">View</th>
   </tr>
-  <tr>
-    <td>Multi-Agent Setup with Coral</td>
-    <td>Build collaborative multi-agent systems using Coral Protocol's open-source infrastructure. Learn to create specialized agents that communicate autonomously, manage user data isolation, and scale horizontally with real-time monitoring through Coral Studio.</td>
-    <td align="center">
-      <a href="tutorials/multi-agent-setup-coral"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
+
   <tr>
     <td>Multi-Agent Communication with A2A Protocol</td>
     <td>Simulate collaborative agent workflows and message exchange using open communication protocols for interoperability.</td>

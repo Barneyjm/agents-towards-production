@@ -4,47 +4,35 @@
 
 ## Overview
 
-This tutorial teaches prompt injection attacks and defenses through hands-on security testing of AI systems. Instead of just reading about vulnerabilities, you'll actually exploit them and then build protections against them.
+Learn prompt injection attacks and defenses through hands-on security testing of AI systems. Instead of just reading about vulnerabilities, you'll actually exploit them and then build protections against them using real attack datasets and automated testing tools.
 
-## What's included
 
-**Attack techniques**: Learn 8 major types of prompt injection attacks, from direct instruction override to sophisticated encoding-based bypasses.
+## What You'll Learn
 
-**Practical testing**: Use real attack datasets and automated testing tools to evaluate AI system security. Includes 91 documented attack examples from security research.
+- **Attack Techniques**: Master 8 major types of prompt injection attacks with 91 real examples
+- **Automated Testing**: Use professional security testing tools to evaluate AI system vulnerabilities
+- **Defense Implementation**: Build and validate security measures using advanced prompt engineering
+- **Encoding Bypasses**: Test 12 different obfuscation methods attackers use to bypass filters
 
-**Defense implementation**: Build and validate security measures using advanced prompt engineering techniques that work in production systems.
+## Tutorial
 
-**Encoding tools**: Test 12 different obfuscation methods that attackers use to bypass AI filters (Base64, hex, ciphers, etc.).
+### **[Complete Security Evaluation: agent-security-evaluation-tutorial.ipynb](./agent-security-evaluation-tutorial.ipynb)**
+Hands-on tutorial covering attack techniques, automated testing, and defense implementation with real-world examples.
 
-## What you'll learn
+## Quick Start
 
-- How to identify and execute prompt injection attacks
-- Automated security testing for AI applications  
-- Defensive prompt engineering with quantitative validation
-- Real-world attack patterns and mitigation strategies
+1. **Install packages**: `pip install openai python-dotenv pandas`
+2. **Set up API key**: Create `.env` file with `OPENAI_API_KEY=your_key_here`
+3. **Run the tutorial**: Complete in 30-45 minutes with automated and manual testing
 
-## Prerequisites
+## Files Included
 
-- Basic Python programming
-- OpenAI API access (you'll need an API key)
-- Understanding of AI/ML fundamentals
-
-## Files included
-
-- `agent-security-evaluation-tutorial.ipynb` - Main tutorial notebook
-- `model_testing_tools.py` - Automated testing framework
-- `prompt_manipulation_tools.py` - Encoding/obfuscation utilities
-- `system_prompt.txt` - Example defensive prompt
-- `example_prompts.csv` - Dataset of 91 real attack examples
-
-## Setup
-
-1. Install required packages: `pip install openai python-dotenv pandas`
-2. Create a `.env` file with your OpenAI API key: `OPENAI_API_KEY=your_key_here`
-3. Run the notebook cells in order
-
-The tutorial takes about 30-45 minutes to complete and includes both automated testing and manual experimentation.
+- **Main tutorial** - Complete security evaluation notebook
+- **Testing framework** - Automated security testing tools
+- **Attack utilities** - Encoding and obfuscation tools
+- **Defense examples** - Production-ready security prompts
+- **Attack dataset** - 91 documented real-world attack examples
 
 ## Warning
 
-This tutorial demonstrates actual attack techniques for educational purposes. Use these methods only on systems you own or have explicit permission to test.
+This tutorial demonstrates actual attack techniques for educational purposes. Use only on systems you own or have explicit permission to test.
