@@ -272,8 +272,7 @@ class ProductionLocationAgent:
 
 ### Resources
 - 📚 [API Documentation](https://api.getcamino.ai/docs)
-- 🎮 [Interactive Playground](https://app.getcamino.ai/playground?utm_source=agents-towards-p
-       roduction&utm_medium=github&utm_campaign=tutorial)
+- 🎮 [Interactive Playground](https://app.getcamino.ai/playground?utm_source=agents-towards-production&utm_medium=github&utm_campaign=tutorial)
 
 ### Common Issues
 
